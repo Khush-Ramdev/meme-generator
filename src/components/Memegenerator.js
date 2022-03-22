@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Draggable, { DraggableCore } from "react-draggable";
+import Draggable from "react-draggable";
 import html2canvas from "html2canvas";
 
 const Memegenerator = () => {
