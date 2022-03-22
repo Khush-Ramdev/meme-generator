@@ -1,0 +1,41 @@
+.meme {
+  position: relative;
+  width: 95vw;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.meme-img {
+  width: 100%;
+  min-height: 300px;
+  max-width: 800px;
+  background-size: contain;
+}
+
+.text0,
+.text1,
+.text2,
+.text3 {
+  font-family: "Wendy One", sans-serif;
+  -webkit-text-stroke: 1px white;
+  -webkit-text-fill-color: black;
+  margin: 0;
+  position: absolute;
+  left: 10%;
+  max-width: 50vw;
+  word-wrap: break-word;
+}
+
+.text0 {
+  top: 2%;
+}
+
+.text1 {
+  top: 10%;
+}
+.text2 {
+  top: 30%;
+}
+.text3 {
+  top: 50%;
+}

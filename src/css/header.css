@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  align-items: center;
+  background-color: blueviolet;
+  height: 10vh;
+  width: 100vw;
+  font-family: "Bungee", cursive;
+}
+
+.header-img {
+  height: 8vh;
+  margin-left: 2rem;
+}
+
+.heading {
+  color: white;
+  font-size: 3rem;
+  margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+  .header {
+    height: 10vh;
+  }
+  .header-img {
+    height: 6vh;
+    margin-left: 1rem;
+  }
+  .heading {
+    font-size: 2rem;
+  }
+}
