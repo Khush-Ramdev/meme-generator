@@ -1,11 +1,13 @@
 .meme {
-  width: 90vw;
+  display: inline-flex;
+  justify-content: center;
   position: relative;
   text-align: center;
   margin: 0 auto;
 }
 
 .meme-img {
+  display: inline-table;
   width: 100%;
   min-height: 300px;
   max-width: 500px;
@@ -38,4 +40,11 @@
 }
 .text3 {
   top: 50%;
+}
+
+
+@media (max-width:500px){
+  .meme-img{
+    width: 90%;
+  }
 }

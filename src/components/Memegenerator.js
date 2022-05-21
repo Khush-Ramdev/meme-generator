@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Draggable from "react-draggable";
 import html2canvas from "html2canvas";
+import UploadForm from "./UploadForm";
 
 const Memegenerator = () => {
   const [firstText, setFirstText] = useState("");
@@ -150,6 +151,7 @@ const Memegenerator = () => {
       <button className="download" onClick={handleDownload}>
         Download
       </button>
+      <UploadForm></UploadForm>
     </div>
   );
 };

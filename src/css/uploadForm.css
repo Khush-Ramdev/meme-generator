@@ -1,0 +1,46 @@
+.uploadform > button {
+  background-color: blueviolet;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  padding: 0.25rem 1rem;
+  text-transform: capitalize;
+}
+
+.headingupload {
+  margin: 0.5rem 0;
+  color: white;
+}
+
+.close {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: rgb(255, 0, 0, 0.7);
+  color: white;
+  border: none;
+  padding: 0.25rem;
+}
+
+.close:hover {
+  background-color: rgba(255, 0, 0);
+}
+
+.modal {
+  height: 50vh;
+  background-color: rgba(0, 0, 0, 0.185);
+}
+
+.overlay {
+  position: "absolute";
+  top: "40px";
+  left: "40px";
+  right: "40px";
+  bottom: "40px";
+  border: "1px solid #ccc";
+  background: "#fff";
+  overflow: "auto";
+  border-radius: "4px";
+  outline: "none";
+  padding: "20px";
+}

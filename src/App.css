@@ -2,9 +2,11 @@
 @import url(./css/header.css);
 @import url(./css/form.css);
 @import url(./css/image.scss);
+@import url(./css/uploadForm.css);
 
 body {
   min-height: 100vh;
+  background-color: black;
 }
 
 .meme-body {
